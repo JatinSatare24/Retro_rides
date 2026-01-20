@@ -1,0 +1,20 @@
+{
+  "name": "retro_rides",
+  "version": "1.0.0",
+  "description": "An app to practise database query",
+  "homepage": "https://github.com/JatinSatare24/Retro_rides#readme",
+  "bugs": {
+    "url": "https://github.com/JatinSatare24/Retro_rides/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JatinSatare24/Retro_rides.git"
+  },
+  "license": "ISC",
+  "author": "Jatin Satare",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

@@ -59,3 +59,13 @@ import fs from 'fs';
           ('Porsche', '356B', 1960, 265000, 'silver', 4, false),
           ('Bentley', 'T2', 1978, 52000, 'silver', 4, false);
 `)
+
+    // Load the SQL file
+    const query = fs.readFileSync('query.sql', 'utf8');
+
+    // Executing simple queries for sections 1 - 3
+    const response = await db.query(query);
+
+    console.clear();
+    console.table(response.rows, ['brand', 'model', 'year', 'price', 'color', 'condition', 'sold']);
+})();

@@ -8,3 +8,5 @@ where brand = 'Bentley'
 
 select ceil(avg(price)) as avg, min(price), max(price) from cars
 where sold is true
+
+select condition, count(condition) as condition_count from cars group by(condition)
